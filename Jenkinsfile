@@ -10,6 +10,8 @@ pipeline {
       steps {
         sh '''ifconfig 
 hostname
+
+echo "Testing.."
 '''
       }
     }

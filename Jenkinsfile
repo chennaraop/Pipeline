@@ -8,7 +8,9 @@ pipeline {
   stages {
     stage('Intermediate') {
       steps {
-        sh 'sh \'mvn --version\''
+        sh '''ifconfig 
+hostname
+'''
       }
     }
   }
